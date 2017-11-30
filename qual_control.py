@@ -1,0 +1,4 @@
+
+
+def majority_vote():
+    

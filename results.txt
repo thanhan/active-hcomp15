@@ -1,0 +1,30 @@
+dec_seed100.pkl : seed first 100 items, no backoff, still interpolate
+
+dec_seed100_no_ip.pkl: same as above but no interpolate
+
+results_bo_ip : with backoff and interpolation
+
+exp_cheap_expert : expert cost = 10
+
+
+exp_cheap_expert : expert cost = 50
+
+exp_proton_unf: uniform prior/eval_rel
+
+exp_appendicitis_unf: same for appendicitis
+
+
+----------------------------------------
+idea: interpolation is important, responsible for the differneces
+previous prior
+still with crowd acc model
+
+left: window = 10 better than 5, still worse than cde from 40k to 80k
+
+middle: 0.99 decay, (look good)
+
+right: appendicitis 0.99 : worse in the beginning
+
+---------------------------------------
+
+set win = inf
